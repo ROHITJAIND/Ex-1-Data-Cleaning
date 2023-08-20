@@ -31,6 +31,7 @@ df=df.dropna(subset=['current_overall_rank'])
 df.head()
 df['watchers']=df['watchers'].fillna(df['watchers'].mean())
 df.head()
+df.info()
 ```
 - Loan_data.csv :
 ```Python
@@ -53,8 +54,9 @@ df['Loan_Amount_Term']=df['Loan_Amount_Term'].fillna(df['Loan_Amount_Term'].medi
 df.head()
 df['Credit_History']=df['Credit_History'].fillna(df['Credit_History'].min())
 df.head()
+df.info()
 ```
-### Output:
+## Output:
 #### Data_set.csv:
 - Non Null Before:
 ![Screenshot 2023-08-20 123744](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/ad3b2517-f2e6-4d96-87dc-49810fe0a36c)
@@ -72,7 +74,7 @@ df.head()
 ![Screenshot 2023-08-20 124109](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/775e4f8d-0748-4cd2-80cd-989947c8828f)
 <br>
 - Non Null After: <br>
-![Screenshot 2023-08-20 124602](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/af870054-b99f-4fd3-af78-c861f5ca3c1d)
+<img height=25% width=60% src="https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/af870054-b99f-4fd3-af78-c861f5ca3c1d">
 
 #### Loan_data.csv:
 - Non Null Before:
@@ -91,7 +93,7 @@ df.head()
 ![Screenshot 2023-08-20 130338](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/608c0170-ba81-4b50-af26-c5df77c74452)
 <br>
 - Non Null After: <br>
-![Screenshot 2023-08-20 130539](https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/231e324c-6a95-41ed-bc8d-d3c48d4354b9)
+<img height=25% width=60% src="https://github.com/ROHITJAIND/Ex-1-Data-Cleaning/assets/118707073/231e324c-6a95-41ed-bc8d-d3c48d4354b9">
 
 ### Result:
 Thus the given data is read,cleansed and the cleaned data is saved into the file.
