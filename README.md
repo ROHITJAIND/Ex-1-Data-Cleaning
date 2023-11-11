@@ -9,6 +9,10 @@ Data cleaning is not simply about erasing data ,but rather finding a way to maxi
 - STEP 2 : Get the information about the data.
 - STEP 3 : Modify the null values from the data by removing or adding data to the records.
 - STEP 4 : Save the Clean data to the file.
+```
+Developed By: ROHIT JAIN D
+Resgiter No: 212222230120
+```
 ### CODE:
 - Data_set.csv :
 ```Python
